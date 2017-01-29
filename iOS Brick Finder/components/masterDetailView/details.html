@@ -1,0 +1,77 @@
+<div data-role="view" data-title="Details" data-model="app.masterDetailView.masterDetailViewModel" data-bind="events: { show: detailsShow }" id="masterDetailViewModelScreen" class="screen screen--detail">
+    <header data-role="header">
+        <div data-role="navbar" class="header-text">
+            <a data-role="backbutton" data-align="left">Back</a>
+            <span data-bind="text: currentItem['Inscription']"></span>
+        </div>
+    </header>
+
+    <div class="details-content screen__content screen__content--details">
+        <div class="km-listview-wrapper">
+            <ul class="km-listview km-list km-listinset details-fields">
+
+
+                <li class="detail-content-item">
+
+
+                    <label id="textBlock5Field" class="km-label-above field field--text-block">
+
+                        <span class="field__label" data-bind="text: strings.masterDetailView.masterDetailViewModel.editableListForm3.textBlock5.title"></span>
+
+
+                        <div class="textBlock field__content" data-bind="html: currentItem.Between"></div>
+
+                    </label>
+
+
+                </li>
+                <li class="detail-content-item">
+
+
+                    <label id="textBlock6Field" class="km-label-above field field--text-block">
+
+                        <span class="field__label" data-bind="text: strings.masterDetailView.masterDetailViewModel.editableListForm3.textBlock6.title"></span>
+
+
+                        <div class="textBlock field__content" data-bind="html: currentItem.Located"></div>
+
+                    </label>
+
+
+                </li>
+                <li class="form-content-item">
+
+
+                    <div id="locationField" class="field field--location imageListItem km-label-above">
+
+                        <div class="field__label" data-bind="text: strings.masterDetailView.masterDetailViewModel.editableListForm3.location.title"></div>
+
+                        <div class="field__content">
+
+                            <p data-bind="html: getDistance"></p>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="form-content-item">
+
+
+                    <div id="location1Field" class="field field--location imageListItem km-label-above">
+
+                        <div class="field__label" data-bind="text: strings.masterDetailView.masterDetailViewModel.editableListForm3.location1.title"></div>
+
+                        <div class="field__content">
+
+                            <div id="location1" class="mapView"></div>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- START_CUSTOM_CODE_masterDetailViewModel -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+    <!-- END_CUSTOM_CODE_masterDetailViewModel -->
+</div>

@@ -4,13 +4,210 @@
     {
       "type": "kendo-ui-mobile:view",
       "name": "home",
-      "components": [],
-      "title": "Home View",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:about",
+          "name": "homeModel",
+          "appName": "'88 Olympic Brick Finder",
+          "appVersion": "Version 1.03 Copyright ©2017 singlePOINT.ca",
+          "appIcon": "AppAboutImage.png",
+          "appDescription": "Welcome to the '88 Olympic Brick Finder.  This is the ONLY digital database of Calgary's Olympic Plaza Bricks.  Each of the 36,000+ bricks in the plaza is locatable with your phone's GPS capability.  You can also use the original 'between these two key bricks' location method.  The database of bricks has been painstakingly regenerated from 25-year old mainframe printer records as there was no digital copy of this database - until now!  If you happen to notice a mistake in our record, please let us know and we'll update our system.  Thanks for helping to keep Olympic Plaza and the bricks that are a key part of it an important part of Calgary's Olympic legacy!\n\nBe sure to visit us on the web at OLYMPICBRICKS.COM",
+          "contactButton": true,
+          "contactLabel": "Contact us",
+          "contactMail": "support@OlympicBricks.com",
+          "facebookButton": true,
+          "facebookLabel": "Show your Facebook Friends your brick",
+          "facebookLink": "https://www.facebook.com/OlympicBricks",
+          "twitterButton": true,
+          "twitterLabel": "Tweet your brick!",
+          "twitterLink": "https://twitter.com/OlympicBricks"
+        }
+      ],
+      "title": "About",
+      "addToNavigation": true,
+      "icon": "info"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "keyBricks",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:form",
+          "components": [
+            {
+              "type": "kendo-ui-mobile:editableListForm",
+              "components": [
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "textBlock1",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "Key Bricks Explained",
+                  "inputType": "textBlock",
+                  "wideFieldTitlePosition": "top",
+                  "value": "Consumer GPS devices didn't exist back in 1987 when Olympic Plaza was built, so a different way of locating bricks was devised - KEY BRICKS.  These are bricks that are placed at 5 foot intervals all around the Plaza where custom bricks were set.  A record was made for each brick, labeling between which two Key Bricks it had been placed."
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "textBlock2",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "GPS To The Rescue!",
+                  "inputType": "textBlock",
+                  "wideFieldTitlePosition": "top",
+                  "value": "This application has added the central point between each Key Brick pair as its GPS location for each brick in the plaza.  Your GPS should be accurate enough to direct you to the area recorded for each brick, but if you don't have a GPS device, you can still find your brick located between your brick's two listed Key Bricks."
+                }
+              ],
+              "name": "editableListForm",
+              "formType": "add"
+            }
+          ],
+          "name": "keyBricksModel",
+          "enableDataBinding": false
+        }
+      ],
+      "title": "All About Key Bricks",
+      "addToNavigation": true,
+      "icon": "action"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "homePage",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:form",
+          "components": [
+            {
+              "type": "kendo-ui-mobile:editableListForm",
+              "components": [
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "textBlock3",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "How to find your brick",
+                  "inputType": "textBlock",
+                  "wideFieldTitlePosition": "top",
+                  "value": "Finding your brick is easy!  Click the FIND MY BRICK button below and then enter the text on the brick you're looking for in the search bar along the top of the screen.  The bricks with matching text will automatically display below the search bar.   Click on the brick you want to locate to see the details on where it is located in the Plaza."
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "textBlock4",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "Key Bricks and GPS",
+                  "inputType": "textBlock",
+                  "wideFieldTitlePosition": "top",
+                  "value": "You will be given the two KEY BRICKS that your selected brick is located between.  As well, this application has added the GPS location in the middle of each Key Brick pair to aid you in finding the brick."
+                }
+              ],
+              "name": "editableListForm1",
+              "formType": "add"
+            }
+          ],
+          "name": "homePageModel",
+          "enableDataBinding": false
+        }
+      ],
+      "title": "Olympic Plaza Brick Finder",
       "addToNavigation": true,
       "icon": "home"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "masterDetailView",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:editableList",
+          "listExtraFields": [],
+          "detailExtraFields": [],
+          "addScreenExtraFields": [],
+          "editScreenExtraFields": [],
+          "components": [
+            {
+              "type": "kendo-ui-mobile:editableListForm",
+              "components": [
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "textBlock5",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "Your brick is located between this KEY BRICK:",
+                  "inputType": "textBlock",
+                  "wideFieldTitlePosition": "top",
+                  "dataBindingOptional": "Between"
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "textBlock6",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "And this KEY BRICK:",
+                  "inputType": "textBlock",
+                  "wideFieldTitlePosition": "top",
+                  "dataBindingOptional": "Located"
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "location",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "The Brick is This Far From You:",
+                  "inputType": "location",
+                  "titlePosition": "top",
+                  "dataBinding": "Location",
+                  "locationDisplayType": "distance"
+                },
+                {
+                  "type": "kendo-ui-mobile:editableListFormField",
+                  "name": "location1",
+                  "dataBindingRelationChildren": "[]",
+                  "dataBindingMultipleSelectChildren": "[]",
+                  "title": "Map:",
+                  "inputType": "location",
+                  "titlePosition": "top",
+                  "dataBinding": "Location",
+                  "locationDisplayType": "map",
+                  "locationApiKey": "pk.eyJ1Ijoicm9ubWNtYWhvbiIsImEiOiJjaXNpaHhkZnMwMDR3Mm9ud2MxZzY3eHBsIn0.WxFX12ek6rhi1m83qZWUyQ"
+                }
+              ],
+              "name": "editableListForm3",
+              "formType": "detail"
+            }
+          ],
+          "name": "masterDetailViewModel",
+          "dataProvider": "backendServices",
+          "collection": "Brick",
+          "filterField": "Inscription",
+          "headerField": "Inscription",
+          "addItemForm": false,
+          "editItemForm": false,
+          "deleteItemButton": false,
+          "pullToRefresh": true,
+          "endlessScroll": true,
+          "isMapView": false,
+          "serverSideSorting": false,
+          "serverSidePaging": true,
+          "serverSidePagingSize": 25,
+          "detailHeaderFieldSource": "dataBound",
+          "detailHeaderField": "Inscription"
+        }
+      ],
+      "title": "Find My Brick",
+      "addToNavigation": true,
+      "icon": "organize"
     }
   ],
-  "dataProviders": [],
+  "dataProviders": [
+    {
+      "type": "kendo-ui-mobile:dataProvider",
+      "name": "backendServices",
+      "source": "everlive",
+      "everliveKey": "vkg21wo76bdwqvrr",
+      "offlineStorage": false,
+      "title": "iOS Bricks"
+    }
+  ],
   "name": "kendoUiMobileApp",
   "navigation": "tabstrip",
   "view": "home",

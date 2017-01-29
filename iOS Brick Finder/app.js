@@ -36,11 +36,11 @@
             allItems = $('#navigation-container-more').find('a'),
             navigationShowMoreContent = '';
 
-            allItems.each(function(index) {
-                navigationShowMoreContent += '<li>' + allItems[index].outerHTML + '</li>';
-            });
+        allItems.each(function(index) {
+            navigationShowMoreContent += '<li>' + allItems[index].outerHTML + '</li>';
+        });
 
-             navigationShowMoreView.html(navigationShowMoreContent);
+        navigationShowMoreView.html(navigationShowMoreContent);
         kendo.bind($('#navigation-show-more-view'), app.showMore.viewModel);
 
         app.notification = $("#notify");
@@ -98,7 +98,12 @@
     };
 
     /// start appjs functions
-    /// end appjs functions
+
+    app.locationEditOnSave = function() {
+            $("#locationEditor").hide();
+        }
+        /// end appjs functions
+
     app.showFileUploadName = function(itemViewName) {
         $('.' + itemViewName).off('change', 'input[type=\'file\']').on('change', 'input[type=\'file\']', function(event) {
             var target = $(event.target),

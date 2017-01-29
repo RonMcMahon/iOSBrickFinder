@@ -1,0 +1,50 @@
+<div data-role="view" data-title="View" data-layout="main" data-model="app.keyBricks" data-show="app.keyBricks.onShow" data-after-show="app.keyBricks.afterShow" id="keyBricksScreen" class="screen">
+    <div id="keyBricksModel" class="form-view screen__content screen__content--form add-item-view">
+        <form>
+            <ul class="form-content" data-role="listview" data-style="inset">
+                <li class="form-content-item">
+                    <label id="textBlock1Field" class="km-label-above field field--text-block">
+
+                        <span class="field__label" data-bind="text: strings.keyBricks.keyBricksModel.editableListForm.textBlock1.title"></span>
+
+
+                        <div class="textBlock field__content">Consumer GPS devices didn&#39;t exist back in 1987 when Olympic Plaza was built, so a different way of locating bricks was devised - KEY BRICKS. These are bricks that are placed at 5 foot intervals all around the Plaza where custom
+                            bricks were set. A record was made for each brick, labeling between which two Key Bricks it had been placed.</div>
+
+                    </label>
+                </li>
+                <li class="form-content-item">
+                    <label id="textBlock2Field" class="km-label-above field field--text-block">
+
+                        <span class="field__label" data-bind="text: strings.keyBricks.keyBricksModel.editableListForm.textBlock2.title"></span>
+
+
+                        <div class="textBlock field__content">This application has added the central point between each Key Brick pair as its GPS location for each brick in the plaza. Your GPS should be accurate enough to direct you to the area recorded for each brick, but if you don&#39;t
+                            have a GPS device, you can still find your brick located between your brick&#39;s two listed Key Bricks.</div>
+
+                    </label>
+                </li>
+            </ul>
+
+            <div class="button-group">
+            </div>
+        </form>
+        <!-- START_CUSTOM_CODE_keyBricksModel -->
+        <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+        <!-- END_CUSTOM_CODE_keyBricksModel -->
+    </div>
+    <header data-role="header">
+        <div data-role="navbar" class="header-text">
+
+            <span data-bind="text: strings.keyBricks.title"></span>
+
+        </div>
+    </header>
+
+
+    <!-- START_CUSTOM_CODE_keyBricks -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+    <!-- END_CUSTOM_CODE_keyBricks -->
+</div>
