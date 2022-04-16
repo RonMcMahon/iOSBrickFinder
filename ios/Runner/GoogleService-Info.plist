@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>487539402842-br1s2j9pqu0g4cqlf5rn0ub5ujfj0uu2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.487539402842-br1s2j9pqu0g4cqlf5rn0ub5ujfj0uu2</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>487539402842-1enti3ikacgfl35feptkrokr838v4v7l.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBPutN63HFC86ebYUfn4t6LUqZlKNT0lSo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>487539402842</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ca.singlepoint.iOSBrickFinder</string>
+	<key>PROJECT_ID</key>
+	<string>abrickfinder</string>
+	<key>STORAGE_BUCKET</key>
+	<string>abrickfinder.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:487539402842:ios:9db444a42407cdd29a9063</string>
+	<key>DATABASE_URL</key>
+	<string>https://abrickfinder-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

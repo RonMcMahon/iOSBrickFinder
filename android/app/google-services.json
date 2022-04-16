@@ -1,0 +1,223 @@
+{
+  "project_info": {
+    "project_number": "487539402842",
+    "firebase_url": "https://abrickfinder-default-rtdb.firebaseio.com",
+    "project_id": "abrickfinder",
+    "storage_bucket": "abrickfinder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487539402842:android:5a2d207e6077f3db9a9063",
+        "android_client_info": {
+          "package_name": "ca.singlepoint.iOSBrickFinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487539402842-ql5spuqfd5tvfimi2304ja3rep5f4p48.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.singlepoint.iOSBrickFinder",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "487539402842-mvlppavqem0ei1vncrg4n0icbt0vm81p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZLeKoQcTX_XwS44ItHFAcZTPx_vR6VJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487539402842-mvlppavqem0ei1vncrg4n0icbt0vm81p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "487539402842-0a6jkhj5a3jbv10fbuetlaef9mbhqq1e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.olympicbricks.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487539402842:android:17363b2183722a0b9a9063",
+        "android_client_info": {
+          "package_name": "com.flutterflow.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487539402842-mvlppavqem0ei1vncrg4n0icbt0vm81p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZLeKoQcTX_XwS44ItHFAcZTPx_vR6VJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487539402842-mvlppavqem0ei1vncrg4n0icbt0vm81p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "487539402842-0a6jkhj5a3jbv10fbuetlaef9mbhqq1e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.olympicbricks.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487539402842:android:49a810b2ee0121439a9063",
+        "android_client_info": {
+          "package_name": "com.olympicbricks.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487539402842-lvtmpd1qgvebfqkfllvekr5uqbiuv5le.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.olympicbricks.app",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "487539402842-mvlppavqem0ei1vncrg4n0icbt0vm81p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZLeKoQcTX_XwS44ItHFAcZTPx_vR6VJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487539402842-mvlppavqem0ei1vncrg4n0icbt0vm81p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "487539402842-0a6jkhj5a3jbv10fbuetlaef9mbhqq1e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.olympicbricks.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487539402842:android:2404cb0c8bab54ad9a9063",
+        "android_client_info": {
+          "package_name": "com.olympicbricks.capitals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487539402842-9kvr6retqqtivg9v6tjp6iih3sq58ou1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.olympicbricks.capitals",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "487539402842-mvlppavqem0ei1vncrg4n0icbt0vm81p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZLeKoQcTX_XwS44ItHFAcZTPx_vR6VJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487539402842-mvlppavqem0ei1vncrg4n0icbt0vm81p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "487539402842-0a6jkhj5a3jbv10fbuetlaef9mbhqq1e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.olympicbricks.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487539402842:android:40359a25a90d16369a9063",
+        "android_client_info": {
+          "package_name": "com.olympicbricks.finder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487539402842-1enti3ikacgfl35feptkrokr838v4v7l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.olympicbricks.finder",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "487539402842-mvlppavqem0ei1vncrg4n0icbt0vm81p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZLeKoQcTX_XwS44ItHFAcZTPx_vR6VJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487539402842-mvlppavqem0ei1vncrg4n0icbt0vm81p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "487539402842-0a6jkhj5a3jbv10fbuetlaef9mbhqq1e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.olympicbricks.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
