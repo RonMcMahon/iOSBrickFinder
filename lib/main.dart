@@ -1,27 +1,20 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:olympic_brick_finder/home_page/home_page_widget.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'flutter_flow/flutter_flow_theme.dart';
 import 'flutter_flow/flutter_flow_util.dart';
 import 'flutter_flow/internationalization.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'home_page/home_page_widget.dart';
-import 'about/about_widget.dart';
-import 'key_bricks/key_bricks_widget.dart';
-import 'share/share_widget.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'index.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
   await Firebase.initializeApp();
-
   await FlutterFlowTheme.initialize();
 
-  // Initialize FFAppState.
-  FFAppState();
+  FFAppState(); // Initialize FFAppState
 
   runApp(MyApp());
 }
@@ -38,6 +31,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   Locale _locale;
   ThemeMode _themeMode = FlutterFlowTheme.themeMode;
+
   bool displaySplashImage = true;
 
   @override
@@ -118,7 +112,7 @@ class _NavBarPageState extends State<NavBarPage> {
         onTap: (i) => setState(() => _currentPage = tabs.keys.toList()[i]),
         backgroundColor: Color(0xFFB70606),
         selectedItemColor: Color(0xFFE0F2F1),
-        unselectedItemColor: Color(0x8A382222),
+        unselectedItemColor: Color(0xFAE5C1C1),
         showSelectedLabels: true,
         showUnselectedLabels: true,
         type: BottomNavigationBarType.fixed,

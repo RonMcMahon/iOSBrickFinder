@@ -75,16 +75,16 @@ abstract class BricksRecord
       BricksRecord(
         (c) => c
           ..between = snapshot.data['Between']
-          ..index = snapshot.data['Index']
+          ..index = snapshot.data['Index']?.round()
           ..inscription = snapshot.data['Inscription']
           ..latLong = safeGet(() => LatLng(
                 snapshot.data['_geoloc']['lat'],
                 snapshot.data['_geoloc']['lng'],
               ))
-          ..latitude = snapshot.data['Latitude']
+          ..latitude = snapshot.data['Latitude']?.toDouble()
           ..located = snapshot.data['Located']
-          ..longitude = snapshot.data['Longitude']
-          ..page = snapshot.data['Page']
+          ..longitude = snapshot.data['Longitude']?.toDouble()
+          ..page = snapshot.data['Page']?.round()
           ..status = snapshot.data['Status']
           ..reference = BricksRecord.collection.doc(snapshot.objectID),
       );

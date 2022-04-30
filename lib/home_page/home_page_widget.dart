@@ -63,12 +63,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 Align(
                   alignment: AlignmentDirectional(0, -4.67),
                   child: TextFormField(
+                    controller: textController,
                     onChanged: (_) => EasyDebounce.debounce(
                       'textController',
                       Duration(milliseconds: 2000),
                       () => setState(() {}),
                     ),
-                    controller: textController,
                     obscureText: false,
                     decoration: InputDecoration(
                       hintText: 'ENTER BRICK TO FIND',
@@ -92,6 +92,18 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           topRight: Radius.circular(4.0),
                         ),
                       ),
+                      suffixIcon: textController.text.isNotEmpty
+                          ? InkWell(
+                              onTap: () => setState(
+                                () => textController.clear(),
+                              ),
+                              child: Icon(
+                                Icons.clear,
+                                color: Color(0xFF757575),
+                                size: 22,
+                              ),
+                            )
+                          : null,
                     ),
                     style: FlutterFlowTheme.of(context).bodyText1.override(
                           fontFamily: 'IBM Plex Mono',
